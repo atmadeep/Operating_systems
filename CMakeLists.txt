@@ -1,0 +1,22 @@
+cmake_minimum_required(VERSION 3.8)
+project(Operating_systems)
+
+set(CMAKE_CXX_STANDARD 11)
+
+set(SOURCE_FILES main.cpp)
+add_executable(Operating_systems ${SOURCE_FILES})
+add_executable(main main.cpp)
+add_executable(FIFO FIFO.cpp)
+add_executable(First_Fit .idea/First_Fit.cpp)
+add_executable(Best_fit Best_fit.cpp)
+add_executable(Best_fit_new Best_fit_new.cpp)
+add_executable(Trials Trials.cpp)
+add_executable(Shortest_job_first Shortest_job_first.cpp)
+add_executable(Disk_Scan Disk_Scan.cpp)
+add_executable(FIFO_PAGE FIFO_PAGE.cpp)
+add_executable(LRU LRU.cpp)
+add_executable(Priority Priority.cpp)
+add_executable(optimal optimal.cpp)
+
+add_executable(Round_Robin Round_Robin.cpp)
+add_executable(Worst_fit .idea/Worst_fit.cpp)
